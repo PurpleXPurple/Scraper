@@ -1,0 +1,143 @@
+{
+	"title": "Online streamer",
+	"url": "https://en.wikipedia.org/wiki/Online_streamer",
+	"content": {
+		"site_navigation": {
+			"primary": [
+				{"text": "Main page", "url": "https://en.wikipedia.org/wiki/Main_Page"},
+				{"text": "Contents", "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents"},
+				{"text": "Current events", "url": "https://en.wikipedia.org/wiki/Portal:Current_events"},
+				{"text": "Random article", "url": "https://en.wikipedia.org/wiki/Special:Random"},
+				{"text": "About Wikipedia", "url": "https://en.wikipedia.org/wiki/Wikipedia:About"},
+				{"text": "Contact us", "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us"}
+			],
+			"help": [
+				{"text": "Help", "url": "https://en.wikipedia.org/wiki/Help:Contents"},
+				{"text": "Introduction", "url": "https://en.wikipedia.org/wiki/Help:Introduction"},
+				{"text": "Community portal", "url": "https://en.wikipedia.org/wiki/Wikipedia:Community_portal"},
+				{"text": "Recent changes", "url": "https://en.wikipedia.org/wiki/Special:RecentChanges"},
+				{"text": "File upload wizard", "url": "https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard"},
+				{"text": "Special pages", "url": "https://en.wikipedia.org/wiki/Special:SpecialPages"}
+			],
+			"actions": [
+				{"text": "Donate", "url": "https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en"},
+				{"text": "Create account", "url": "https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Online+streamer"},
+				{"text": "Log in", "url": "https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Online+streamer"}
+			]
+		},
+		"announcement": {
+			"text": "Wiki Loves Monuments: Photograph a monument, help Wikipedia and win! Learn more",
+			"url": "https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2026_in_Egypt",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Wiki_Loves_Monuments_Logo_notext.svg/60px-Wiki_Loves_Monuments_Logo_notext.svg.png"
+		},
+		"table_of_contents": [
+			{"text": "Top", "anchor": "#"},
+			{"text": "History", "anchor": "#History"},
+			{"text": "Genre", "anchor": "#Genre"},
+			{"text": "Video games", "anchor": "#Video_games"},
+			{"text": "IRL streams", "anchor": "#IRL_streams"},
+			{"text": "Virtual avatar", "anchor": "#Virtual_avatar"},
+			{"text": "Pornographic streaming", "anchor": "#Pornographic_streaming"},
+			{"text": "Trash streaming", "anchor": "#Trash_streaming"},
+			{"text": "Marathon/lifestream streaming", "anchor": "#Marathon/lifestream_streaming"},
+			{"text": "By nations", "anchor": "#By_nations"},
+			{"text": "South Korea", "anchor": "#South_Korea"},
+			{"text": "China", "anchor": "#China"},
+			{"text": "See also", "anchor": "#See_also"},
+			{"text": "References", "anchor": "#References"}
+		],
+		"article": {
+			"heading": "Online streamer",
+			"tabs": [
+				{"text": "Article", "url": "https://en.wikipedia.org/wiki/Online_streamer"},
+				{"text": "Talk", "url": "https://en.wikipedia.org/wiki/Talk:Online_streamer"},
+				{"text": "Read", "url": "https://en.wikipedia.org/wiki/Online_streamer"},
+				{"text": "View source", "url": "https://en.wikipedia.org/w/index.php?title=Online_streamer&action=edit"},
+				{"text": "View history", "url": "https://en.wikipedia.org/w/index.php?title=Online_streamer&action=history"}
+			],
+			"notice": "Page semi-protected",
+			"lead_image": {
+				"alt": "SerpentRick carrying recording gear",
+				"url": "https://en.wikipedia.org/wiki/File:SerpentRick_(cropped).jpg",
+				"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/SerpentRick_%28cropped%29.jpg/250px-SerpentRick_%28cropped%29.jpg"
+			},
+			"intro": "An online streamer or live streamer is a type of social media influencer who broadcasts themselves online through a live stream to an audience.",
+			"sections": [
+				{
+					"heading": "History",
+					"text": "Online streaming arose in the mid-to-late 2000s, originating on sites like YouTube where users could upload videos of themselves in the form of vlogs or Let's Plays. While not all content featured a live audience, users were still able to gain a sizable following and make a living from their content. Other sites like Twitch increased this popularity by offering innovations such as video clippings and pay-for-play. Due to the potential for high earnings from multiple income streams, including ad revenue sharing, endorsements, partnerships, and subscriptions, streaming has become a much-yearned-for career option."
+				},
+				{
+					"heading": "Genre",
+					"subsections": [
+						{"heading": "Video games", "text": "Let's Plays have been the most popular streamers by far since the beginning of live streaming. Today, the majority of streamers make their living from doing Let's Plays, live speedruns, and walkthroughs of video games. The biggest video game streamers are PewDiePie and Ninja, who make millions of dollars each year just from streaming."},
+						{"heading": "IRL streams", "text": "While the majority of professional and part-time streamers play video games, many often do IRL (in real life) streams where they broadcast their daily life. Topics include answering questions in front of a computer, streaming from their phone while walking outside, or doing tutorials."},
+						{"heading": "Virtual avatar", "text": "Virtual avatars, commonly known as VTubers, are a branch of streaming in which virtual avatars, occasionally paired with voice changers, are used instead of the streamer's face. Companies focused on the promotion, support, and merchandising of VTuber talent include Nijisanji and Hololive Production. In 2020, there were more than 10,000 active VTubers."},
+						{"heading": "Pornographic streaming", "text": "Pornographic streams are a way to directly communicate with porn stars. Camgirls and camboys broadcast while nude or performing sexual acts often on demand from viewers. Sites like Plexstorm have created a niche by streaming video gamers performing or showing sexual content including pornographic games."},
+						{"heading": "Trash streaming", "text": "A controversial form of live broadcasting where the host engages in shocking, dangerous, or humiliating activities, often to drive viewer donations. Popular primarily in Russia, Ukraine, and Poland, this format has also been observed in Finland and is associated with sensationalist content meant to provoke or entertain through extreme behavior."},
+						{"heading": "Marathon/lifestream streaming", "text": "Some streamers broadcast nearly all aspects of daily life for prolonged periods. For example, a Twitch streamer known only as Emily streamed continuously for over 1,100 days, sharing routines, meals, and personal moments, highlighting the emotional toll and blurred boundaries of online performance culture."}
+					]
+				},
+				{
+					"heading": "By nations",
+					"subsections": [
+						{"heading": "South Korea", "text": "In South Korea, a streamer is called a broadcast jockey. Broadcast jockeys have become popular over the years in Korea thanks in part to many of them being more relatable to viewers than some celebrities and becoming famous enough to appear on TV shows. Korean sites include AfreecaTV, Naver TV, and KakaoTV in addition to worldwide streaming sites like Twitch, YouTube, and Bigo Live. Mukbang, the live-streaming of eating a meal, originated in South Korea."},
+						{"heading": "China", "text": "China has become the largest marketplace for live streaming. A large number of streamers make $10,000-$100,000 a month without having to be a big name on the Internet. This is due to the large population and the ubiquity of smartphones. Chinese streaming sites may be restricted to Chinese content and audiences due to strict Internet rules in the country."
+						}
+					]
+				},
+				{
+					"heading": "See also",
+					"links": [
+						{"text": "Streaming media", "url": "https://en.wikipedia.org/wiki/Streaming_media"},
+						{"text": "YouTuber", "url": "https://en.wikipedia.org/wiki/YouTuber"}
+					]
+				}
+			],
+			"references": [
+				{"number": 1, "text": "The Business Of Video Games: Streamers And Refereum [Infographic]", "url": "https://www.forbes.com/sites/kevinanderton/2018/01/14/the-business-of-video-games-streamers-and-refereum/", "publisher": "Forbes"},
+				{"number": 2, "text": "Average streamer number on YouTube Gaming Live and Twitch 2018 - Statistic", "url": "https://www.statista.com/statistics/761100/average-number-streamers-on-youtube-gaming-live-and-twitch/", "publisher": "Statista"},
+				{"number": 3, "text": "The YouTuber who has made more money than Cameron Diaz this year", "url": "https://www.independent.co.uk/news/people/forbes-names-pewdiepie-as-highest-earning-youtuber-with-annual-income-reaching-12m-a6695536.html", "publisher": "The Independent", "date": "2015-10-15"},
+				{"number": 4, "text": "'Fortnite' Legend Ninja Talks Twitch Fame And Fortune, And The Game That Got Him There", "url": "https://www.forbes.com/sites/insertcoin/2018/03/13/fortnite-legend-ninja-talks-twitch-fame-and-fortune-and-the-game-that-got-him-there/", "publisher": "Forbes"},
+				{"number": 5, "text": "Twitch now permits streamers to broadcast non-gaming vlog-style content", "url": "https://web.archive.org/web/20201026185341/https://venturebeat.com/2016/12/15/twitch-now-permits-streamers-to-broadcast-non-gaming-vlog-style-content/", "date": "2016-12-15"},
+				{"number": 6, "text": "IRL Streaming: Spontaneous Entertainment For An Audience That's Always Live", "url": "https://uk.news.yahoo.com/irl-streaming-spontaneous-entertainment-audience-160941312.html"},
+				{"number": 7, "text": "Virtual YouTubers exceed 10,000 users", "url": "https://panora.tokyo/archives/4247", "date": "2020-01-15", "language": "Japanese"},
+				{"number": 8, "text": "Plexstorm's Streaming Site Connects Porn Gamer Girls with Fans", "url": "https://avn.com/business/articles/technology/plexstorm-to-launch-worlds-first-adult-game-streaming-platform-755942.html", "publisher": "AVN"},
+				{"number": 9, "text": "Inside the life of a 24/7 streamer: 'What more do you want?'", "publisher": "The Washington Post", "date": "2025-05-04"},
+				{"number": 10, "text": "Former Idols Are Becoming Broadcast Jockeys, And It's No Wonder Why", "url": "https://www.koreaboo.com/stories/former-idols-transitioning-broadcast-jockeys-no-wonder/", "date": "2018-05-10"},
+				{"number": 11, "text": "Actress Shin Se-kyung thrives as YouTuber", "url": "https://www.koreatimes.co.kr/www/art/2021/04/688_260255.html", "date": "2018-12-12"},
+				{"number": 12, "text": "Celebrities Who Have Become Broadcast Jockeys aka BJ's", "url": "https://web.archive.org/web/20181220230644/http://kpoplove.koreadaily.com/celebrities-who-became-broadcast-jockeys/", "date": "2018-03-06"},
+				{"number": 13, "text": "More politicians become YouTubers to promote themselves", "url": "https://www.koreatimes.co.kr/www/nation/2018/12/356_260045.html", "date": "2018-12-09"},
+				{"number": 14, "text": "South Korean dinner porn: No nudity, and a lot of food", "url": "https://www.latimes.com/food/dailydish/la-dd-korean-food-dinner-porn-20131218-story.html", "date": "2013-12-18"},
+				{"number": 15, "text": "How to make $100,000 a month in China, live-streaming your life", "url": "https://www.washingtonpost.com/world/asia_pacific/how-to-make-100000-a-month-in-china-live-streaming-your-life/2017/07/23/b6e0ae1e-602a-11e7-80a2-8c226031ac3f_story.html"},
+				{"number": 16, "text": "China's live streaming market grew 180% in 2016", "url": "https://technode.com/2017/03/31/chinas-live-video-streaming-market-grew-180-2016-report/", "date": "2017-03-31"},
+				{"number": 17, "text": "China's live-streaming explosion: a game changer for all?", "url": "https://www.cnbc.com/2016/12/01/chinas-live-streaming-explosion-a-game-changer-for-all.html", "date": "2016-12-01"}
+			],
+			"related_media": {
+				"text": "Wikimedia Commons has media related to Online streamers",
+				"url": "https://commons.wikimedia.org/wiki/Category:Online%20streamers",
+				"image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png"
+			},
+			"categories": [
+				{"text": "New media", "url": "https://en.wikipedia.org/wiki/Category:New_media"},
+				{"text": "Internet broadcasting", "url": "https://en.wikipedia.org/wiki/Category:Internet_broadcasting"},
+				{"text": "Live streamers", "url": "https://en.wikipedia.org/wiki/Category:Live_streamers"}
+			]
+		},
+		"metadata": {
+			"last_edited": "2026-04-15T13:06:00Z",
+			"rendered_with": "Parsoid",
+			"license": "Creative Commons Attribution-ShareAlike 4.0 License",
+			"mobile_url": "https://en.wikipedia.org/w/index.php?title=Online_streamer&mobileaction=toggle_view_mobile"
+		},
+		"footer_links": [
+			{"text": "Privacy policy", "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy"},
+			{"text": "About Wikipedia", "url": "https://en.wikipedia.org/wiki/Wikipedia:About"},
+			{"text": "Disclaimers", "url": "https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer"},
+			{"text": "Contact Wikipedia", "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us"},
+			{"text": "Developers", "url": "https://developer.wikimedia.org"},
+			{"text": "Statistics", "url": "https://stats.wikimedia.org/#/en.wikipedia.org"},
+			{"text": "Mobile view", "url": "https://en.wikipedia.org/w/index.php?title=Online_streamer&mobileaction=toggle_view_mobile"}
+		]
+	}
+}

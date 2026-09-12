@@ -1,0 +1,526 @@
+Got it — you mean a list of **common HTTP 500 errors and causes encountered during web crawling/scraping**. HTTP 500 is a generic server-side failure, so the exact cause usually has to be found in the website’s logs. [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/500)
+
+## Common 500 causes in web crawling
+
+1. Unhandled application exception.
+2. PHP fatal error.
+3. Python, Ruby, Java, or Node.js runtime exception.
+4. Null-pointer or missing-variable error.
+5. Database connection failure.
+6. Database connection pool exhaustion.
+7. Slow or failed SQL query.
+8. Database server overload.
+9. Database deadlock.
+10. Missing database table.
+11. Missing database column.
+12. Invalid database credentials.
+13. Corrupt database record.
+14. Database timeout.
+15. Out-of-memory error.
+16. CPU exhaustion.
+17. Disk-space exhaustion.
+18. Too many open files.
+19. Too many concurrent requests.
+20. Server process crash.
+21. Web-server misconfiguration.
+22. Broken Apache configuration.
+23. Broken Nginx configuration.
+24. Invalid `.htaccess` syntax.
+25. Incorrect rewrite rule.
+26. Infinite redirect or rewrite loop.
+27. Missing server module.
+28. Missing PHP extension.
+29. Incompatible runtime version.
+30. Incorrect file permissions.
+31. Incorrect directory permissions.
+32. Missing application file.
+33. Corrupted application file.
+34. Missing environment variable.
+35. Invalid environment variable.
+36. Incorrect API key configuration.
+37. Expired API credentials.
+38. Failed third-party API request.
+39. Third-party API timeout.
+40. Third-party API rate limit.
+41. Payment-service failure.
+42. Authentication-service failure.
+43. Search-service failure.
+44. Image-processing failure.
+45. Email-service failure.
+46. Broken plugin.
+47. Plugin conflict.
+48. Broken CMS theme.
+49. Failed CMS update.
+50. Incomplete deployment.
+51. Bad application release.
+52. Regression introduced by new code.
+53. Incorrect production configuration.
+54. Development settings deployed to production.
+55. Debug mode misconfiguration.
+56. Missing dependency.
+57. Incompatible dependency version.
+58. Package installation failure.
+59. Dependency-loading failure.
+60. Autoloader failure.
+61. Broken container image.
+62. Failed container startup.
+63. Kubernetes pod failure.
+64. Failed health check.
+65. Load-balancer backend failure.
+66. Reverse-proxy failure.
+67. Origin server unreachable.
+68. CDN origin-pull failure.
+69. CDN configuration error.
+70. WAF rule malfunction.
+71. Bot-protection failure.
+72. Incorrect crawler detection logic.
+73. User-agent-specific server bug.
+74. Request-header parsing bug.
+75. Invalid `Accept` header handling.
+76. Invalid `Accept-Encoding` handling.
+77. Unsupported compression format.
+78. Brotli compression failure.
+79. Gzip compression failure.
+80. Chunked-transfer encoding failure.
+81. HTTP/2 implementation bug.
+82. HTTP/3 implementation bug.
+83. TLS termination failure.
+84. Certificate or proxy misconfiguration.
+85. Host-header validation failure.
+86. Missing `Host` header handling.
+87. Invalid `X-Forwarded-For` handling.
+88. Invalid `X-Forwarded-Proto` handling.
+89. Wrong protocol detection.
+90. HTTP-to-HTTPS redirect failure.
+91. HTTPS-to-HTTP redirect failure.
+92. Canonical URL generation bug.
+93. Malformed URL handling.
+94. URL-decoding failure.
+95. Double-encoded URL failure.
+96. Unicode URL handling failure.
+97. Invalid percent encoding.
+98. Very long URL.
+99. Very long query string.
+100. Too many query parameters.
+101. Unexpected query parameter.
+102. Missing required query parameter.
+103. Invalid parameter type.
+104. Invalid parameter value.
+105. Empty parameter handling bug.
+106. Duplicate parameter handling bug.
+107. Array-parameter parsing failure.
+108. JSON parsing failure.
+109. XML parsing failure.
+110. Form-data parsing failure.
+111. Multipart upload parsing failure.
+112. Invalid request body.
+113. Request body too large.
+114. Request timeout.
+115. Backend timeout.
+116. PHP execution timeout.
+117. Node.js event-loop blockage.
+118. Java thread-pool exhaustion.
+119. Python worker exhaustion.
+120. CGI process timeout.
+121. FastCGI timeout.
+122. Proxy timeout.
+123. Upstream timeout.
+124. Slow page-generation process.
+125. Expensive server-side rendering.
+126. Excessive template computation.
+127. Infinite loop in application code.
+128. Recursive function overflow.
+129. Stack overflow.
+130. Memory leak.
+131. Session-store failure.
+132. Session-lock contention.
+133. Cookie parsing failure.
+134. Oversized cookie header.
+135. Invalid cookie value.
+136. Missing CSRF token handling.
+137. Authentication middleware crash.
+138. Authorization middleware crash.
+139. Guest-user code-path failure.
+140. Expired-session bug.
+141. Anonymous crawler access bug.
+142. Login redirect handler failure.
+143. CAPTCHA integration failure.
+144. JavaScript challenge failure.
+145. Bot-management service failure.
+146. IP reputation service failure.
+147. Geo-blocking implementation bug.
+148. Country-specific routing failure.
+149. Region-specific backend failure.
+150. Datacenter-specific outage.
+151. IPv4-only backend failure.
+152. IPv6 routing failure.
+153. DNS resolution failure at the origin.
+154. Split-DNS misconfiguration.
+155. Stale DNS record.
+156. Incorrect DNS failover.
+157. Failed service discovery.
+158. Wrong internal hostname.
+159. Unavailable internal service.
+160. Microservice communication failure.
+161. Service mesh failure.
+162. Network partition.
+163. Firewall blocking backend traffic.
+164. Security-group misconfiguration.
+165. Port misconfiguration.
+166. NAT gateway exhaustion.
+167. Ephemeral-port exhaustion.
+168. Connection reset by upstream.
+169. Connection refused by upstream.
+170. Unstable backend connection.
+171. Load-balancer routing bug.
+172. Uneven load distribution.
+173. Unhealthy server receiving traffic.
+174. Autoscaling failure.
+175. Autoscaling delay.
+176. Cold-start timeout.
+177. Serverless execution timeout.
+178. Serverless memory limit.
+179. Serverless concurrency limit.
+180. Serverless deployment mismatch.
+181. Object-storage failure.
+182. Missing object-storage file.
+183. Invalid object-storage permissions.
+184. Expired signed URL.
+185. Broken image CDN.
+186. Broken asset CDN.
+187. Static-file server failure.
+188. Manifest-generation failure.
+189. Sitemap-generation failure.
+190. Robots.txt generation failure.
+191. Dynamic robots.txt bug.
+192. Database-backed robots.txt failure.
+193. CMS routing failure.
+194. Broken permalink structure.
+195. Missing route handler.
+196. Route ambiguity.
+197. Route parameter mismatch.
+198. Framework middleware conflict.
+199. Middleware ordering bug.
+200. Error-handler failure.
+
+## Crawler-specific triggers
+
+201. Crawler sends requests too quickly.
+202. Excessive parallel connections.
+203. Repeated requests to the same URL.
+204. URL fingerprinting causes server errors.
+205. Crawler follows endless pagination.
+206. Crawler follows calendar traps.
+207. Crawler generates infinite filter combinations.
+208. Crawler sends malformed URLs.
+209. Crawler sends unsupported methods.
+210. Crawler uses `HEAD` incorrectly.
+211. Server supports `GET` but not `HEAD`.
+212. Crawler sends an unusual user agent.
+213. Crawler omits a browser-like header.
+214. Crawler sends an unexpected `Accept-Language`.
+215. Crawler sends an unexpected `Referer`.
+216. Crawler sends empty cookies.
+217. Crawler sends stale cookies.
+218. Crawler sends oversized cookies.
+219. Crawler does not maintain a session.
+220. Crawler maintains too many sessions.
+221. Crawler does not execute required JavaScript.
+222. Crawler executes JavaScript incorrectly.
+223. Crawler requests API endpoints directly.
+224. API endpoint expects browser state.
+225. API endpoint expects CSRF protection.
+226. API endpoint requires authentication.
+227. API endpoint has a strict rate limit.
+228. Crawler triggers an undocumented endpoint.
+229. Crawler sends invalid JSON.
+230. Crawler omits a required API field.
+231. Crawler sends an unsupported content type.
+232. Crawler requests an unsupported language.
+233. Crawler requests an unsupported currency.
+234. Crawler requests an unsupported country.
+235. Crawler requests a nonexistent variant.
+236. Crawler sends a huge query string.
+237. Crawler follows tracking-parameter URLs.
+238. Crawler follows session-parameter URLs.
+239. Crawler follows malformed pagination links.
+240. Crawler requests expired links.
+241. Crawler requests temporary URLs.
+242. Crawler requests signed URLs after expiry.
+243. Crawler hits cache-bypass parameters.
+244. Crawler bypasses CDN cache.
+245. Crawler causes repeated origin fetches.
+246. Crawler triggers expensive search queries.
+247. Crawler triggers expensive filtering.
+248. Crawler triggers expensive sorting.
+249. Crawler triggers expensive faceted navigation.
+250. Crawler requests uncached pages.
+251. Crawler triggers server-side rendering repeatedly.
+252. Crawler requests very large pages.
+253. Crawler requests large exports.
+254. Crawler requests file previews.
+255. Crawler requests image transformations.
+256. Crawler requests PDF generation.
+257. Crawler requests report generation.
+258. Crawler requests video thumbnails.
+259. Crawler requests map rendering.
+260. Crawler requests live data endpoints.
+261. Crawler accesses pages during deployment.
+262. Crawler accesses pages during maintenance.
+263. Crawler hits a partially restarted cluster.
+264. Crawler hits inconsistent replicas.
+265. Crawler hits a stale application server.
+266. Crawler hits a failed database replica.
+267. Crawler triggers an uncached exception path.
+268. Crawler exposes a rare URL edge case.
+269. Crawler exposes an untested locale.
+270. Crawler exposes an untested device type.
+271. Crawler exposes an untested browser header.
+272. Crawler triggers a bot-specific code path.
+273. Crawler is mistaken for malicious traffic.
+274. Crawler is blocked by a WAF.
+275. Crawler is blocked by a CDN bot rule.
+276. Crawler is blocked by an IP reputation rule.
+277. Crawler is blocked by an origin firewall.
+278. Crawler exceeds per-IP limits.
+279. Crawler exceeds per-session limits.
+280. Crawler exceeds per-endpoint limits.
+281. Crawler exceeds global traffic limits.
+282. Crawler causes connection-pool exhaustion.
+283. Crawler causes worker-process exhaustion.
+284. Crawler causes database-pool exhaustion.
+285. Crawler causes cache stampede.
+286. Crawler causes queue overload.
+287. Crawler causes log-volume overload.
+288. Crawler causes autoscaling lag.
+289. Crawler creates too many temporary files.
+290. Crawler fills application storage.
+291. Crawler triggers rate-limit middleware bugs.
+292. Crawler triggers retry storms.
+293. Crawler retries non-idempotent requests.
+294. Crawler retries while the server is overloaded.
+295. Crawler ignores `Retry-After`.
+296. Crawler does not apply exponential backoff.
+297. Crawler opens connections without reuse.
+298. Crawler fails to close connections.
+299. Crawler uses an incompatible TLS profile.
+300. Crawler negotiates an unsupported protocol.
+
+## Other common causes
+
+301. Broken server-side include.
+302. Template syntax error.
+303. Missing template variable.
+304. Invalid template data.
+305. Encoding mismatch.
+306. Character-conversion failure.
+307. Locale configuration failure.
+308. Time-zone configuration failure.
+309. Date-parsing failure.
+310. Invalid date range.
+311. Time-based query bug.
+312. Daylight-saving-time bug.
+313. Number-formatting failure.
+314. Currency-conversion failure.
+315. Translation-file failure.
+316. Missing localization file.
+317. Invalid language fallback.
+318. Invalid content negotiation.
+319. Missing content type.
+320. Incorrect MIME type.
+321. Unsupported file extension.
+322. File download handler failure.
+323. File path traversal protection bug.
+324. Missing temporary directory.
+325. Temporary directory permissions error.
+326. Upload directory permissions error.
+327. File-locking failure.
+328. Log-file permissions error.
+329. Log partition full.
+330. Inode exhaustion.
+331. Broken symbolic link.
+332. Missing mounted volume.
+333. Unmounted network storage.
+334. NFS timeout.
+335. Filesystem corruption.
+336. Read-only filesystem.
+337. Backup job resource exhaustion.
+338. Scheduled job locking a table.
+339. Scheduled job restarting services.
+340. Cron job deleting required files.
+341. Queue worker failure.
+342. Background job failure.
+343. Message broker outage.
+344. Queue backlog.
+345. Duplicate job processing.
+346. Event-consumer failure.
+347. Webhook processing failure.
+348. Webhook retry overload.
+349. Cache server outage.
+350. Cache serialization failure.
+351. Cache key collision.
+352. Cache item too large.
+353. Cache invalidation bug.
+354. Stale cache contains invalid data.
+355. Session cache outage.
+356. Redis connection failure.
+357. Memcached connection failure.
+358. Search-index outage.
+359. Search-index corruption.
+360. Search query syntax failure.
+361. Search result serialization failure.
+362. Recommendation-service failure.
+363. Personalization-service failure.
+364. Feature-flag service failure.
+365. Feature-flag returns invalid configuration.
+366. Configuration server outage.
+367. Secrets-manager outage.
+368. Certificate-manager outage.
+369. Identity-provider outage.
+370. OAuth callback failure.
+371. SSO provider timeout.
+372. Two-factor authentication integration failure.
+373. Webhook signature-validation bug.
+374. External API schema change.
+375. External API response malformed.
+376. External API returns unexpected status.
+377. External API returns excessive data.
+378. External API request quota exceeded.
+379. External API DNS failure.
+380. External API TLS failure.
+381. External API partial outage.
+382. External API maintenance.
+383. Payment API timeout.
+384. Shipping API timeout.
+385. Tax API failure.
+386. Maps API quota exhaustion.
+387. Analytics service blocking requests.
+388. Consent-management platform failure.
+389. Advertising integration failure.
+390. Social-login integration failure.
+391. Broken analytics middleware.
+392. Broken security middleware.
+393. Broken monitoring agent.
+394. Profiling agent overhead.
+395. Tracing-agent failure.
+396. APM agent incompatibility.
+397. Error-reporting service blocking response.
+398. Logging library crash.
+399. Serialization library crash.
+400. Deserialization vulnerability protection.
+
+401. Request body validation failure.
+402. Schema-validation exception.
+403. Invalid GraphQL query.
+404. GraphQL resolver exception.
+405. GraphQL complexity limit bug.
+406. REST controller failure.
+407. SOAP service failure.
+408. WebSocket upgrade failure.
+409. Server-sent-events failure.
+410. Long-polling timeout.
+411. Streaming response failure.
+412. Partial response generation failure.
+413. Response buffering failure.
+414. Broken compression middleware.
+415. Response too large.
+416. Header too large.
+417. Duplicate response headers.
+418. Invalid response header value.
+419. Invalid status-line generation.
+420. Broken error-page template.
+421. Error handler recursively fails.
+422. Exception swallowed and replaced by 500.
+423. Incorrect exception mapping.
+424. Client cancellation mishandled.
+425. Broken request cancellation handling.
+426. Race condition.
+427. Deadlock.
+428. Thread-safety bug.
+429. Process synchronization bug.
+430. Shared-state corruption.
+431. Concurrency bug.
+432. Data-race failure.
+433. Lock timeout.
+434. Semaphore exhaustion.
+435. Worker queue exhaustion.
+436. Thread-pool exhaustion.
+437. Connection-pool exhaustion.
+438. File-descriptor exhaustion.
+439. Process-limit exhaustion.
+440. PID-limit exhaustion.
+441. Kernel resource exhaustion.
+442. Container memory limit.
+443. Container CPU limit.
+444. Container restart loop.
+445. Host-node overload.
+446. Virtual-machine resource exhaustion.
+447. Cloud quota exhaustion.
+448. Cloud-region outage.
+449. Availability-zone outage.
+450. Failed infrastructure migration.
+
+451. Bad server time.
+452. Clock skew.
+453. Expired internal certificate.
+454. Incorrect certificate chain.
+455. Wrong SNI routing.
+456. Mutual-TLS failure.
+457. Proxy authentication failure.
+458. Internal proxy outage.
+459. Corporate firewall issue.
+460. Data-center firewall issue.
+461. Security-policy update.
+462. WAF false positive.
+463. DDoS mitigation misclassification.
+464. IP allowlist error.
+465. IP denylist error.
+466. Network ACL error.
+467. Geo-IP database error.
+468. ASN blocking error.
+469. Autonomous-system routing issue.
+470. BGP routing problem.
+471. DNS propagation inconsistency.
+472. DNS SERVFAIL.
+473. DNS timeout.
+474. DNSSEC validation failure.
+475. Broken CNAME chain.
+476. Incorrect origin IP.
+477. Failover target unavailable.
+478. Health-check path returns 500.
+479. Health-check authentication failure.
+480. Load balancer marks all backends unhealthy.
+481. Session affinity failure.
+482. Sticky-session mismatch.
+483. Replica synchronization failure.
+484. Eventual-consistency edge case.
+485. Read-after-write failure.
+486. Database migration in progress.
+487. Schema version mismatch.
+488. Application/database version mismatch.
+489. Replica using an old schema.
+490. Corrupt migration state.
+491. Rollback migration failure.
+492. Data-import failure.
+493. Invalid production data.
+494. Unexpected null data.
+495. Unexpected duplicate data.
+496. Missing required production record.
+497. Referential-integrity failure.
+498. Database permissions revoked.
+499. Server maintenance or outage.
+500. A generic server-side failure with no more specific error classification.
+
+## Quick crawler response
+
+When a crawler receives a 500:
+
+1. Record the URL, timestamp, status, response headers, and response body.
+2. Retry only a limited number of times with exponential backoff.
+3. Respect `Retry-After` if it is provided.
+4. Reduce concurrency for that domain.
+5. Check whether the error affects one URL, one path, one region, or the entire site.
+6. Compare responses using different user agents and IP locations.
+7. If you control the site, inspect application, web-server, CDN, database, and load-balancer logs.
+
+A 500 generally indicates a **server-side problem**, not that the crawler itself is necessarily broken; however, crawler traffic can expose or amplify issues such as rate limits, overloaded endpoints, cache misses, and untested URL patterns. [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/500)
